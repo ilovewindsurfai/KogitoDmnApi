@@ -1,0 +1,12 @@
+!3 Loan Approval Tests
+!|Import|
+|com.example.kogitodmnapi.fixtures|
+
+!| Loan Approval Fixture |
+|age|credit score|check approval?|approved?|message?|
+|25|750|true|true|Loan approved based on age: 25 and credit score: 750|
+|17|800|true|false|Loan denied: Applicant must be 18 or older|
+|30|650|true|false|Loan denied: Credit score must be 700 or higher|
+|20|700|true|true|Loan approved based on age: 20 and credit score: 700|
+|18|699|true|false|Loan denied: Credit score must be 700 or higher|
+

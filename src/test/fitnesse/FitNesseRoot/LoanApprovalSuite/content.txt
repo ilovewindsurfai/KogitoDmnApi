@@ -1,0 +1,8 @@
+!contents -R2 -g -p -f -h
+
+!1 Loan Approval Test Suite
+This test suite verifies the loan approval decision rules.
+
+!2 Test Cases
+!include LoanApprovalTest
+
